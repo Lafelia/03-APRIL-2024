@@ -29,21 +29,33 @@
 
 
 // CONCATENATION (Penggabungan antara variabel)
+
 // let masBaktiar = "Baktiar";
 // let masMahardika = "Mahardika";
 // let namaLengkap = masBaktiar + " anggep aja ini spasi " + masMahardika;
 
-let tambah = 5 + 3;
-let kurang = 5 - 3;
-let kali = 5 * 3;
-let bagi = 10 / 5;
+// let tambah = 5 + 3;
+// let kurang = 5 - 3;
+// let kali = 5 * 3;
+// let bagi = 10 / 5;
 
-let hasilTambah = "Hasil tambah = " + tambah;
-let hasilKurang = "Hasil kurang = " + kurang;
-let hasilKali = "Hasil kali = " + kali;
-let hasilBagi = "Hasil bagi = " + bagi;
+// let hasilTambah = "Hasil tambah = " + tambah;
+// let hasilKurang = "Hasil kurang = " + kurang;
+// let hasilKali = "Hasil kali = " + kali;
+// let hasilBagi = "Hasil bagi = " + bagi;
 
-console.log(hasilTambah);
-console.log(hasilKurang);
-console.log(hasilKali);
-console.log(hasilBagi);
+// console.log(hasilTambah);
+// console.log(hasilKurang);
+// console.log(hasilKali);
+// console.log(hasilBagi);
+
+
+
+// CONDITIONAL (PENGKONDISIAN)
+let angka = 5;
+
+if (angka == 0) {
+    console.log("Angka adalah 0");
+} else {
+    console.log("Angka bukanlah 0");
+}
